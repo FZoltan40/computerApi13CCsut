@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ComputerApi.Models;
+﻿namespace ComputerApi.Models;
 
 public partial class Comp
 {

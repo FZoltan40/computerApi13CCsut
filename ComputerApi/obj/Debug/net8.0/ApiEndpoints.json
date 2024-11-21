@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "Post",
+    "RelativePath": "computers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createComputerDto",
+        "Type": "ComputerApi.Models.CreateComputerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Comp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ComputerApi.Controllers.OsystemController",
     "Method": "Post",
     "RelativePath": "osystems",

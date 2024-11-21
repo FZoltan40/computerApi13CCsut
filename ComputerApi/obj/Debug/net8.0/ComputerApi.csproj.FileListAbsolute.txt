@@ -124,3 +124,4 @@ C:\Users\farka\GitWorkDir\ComputerApi\ComputerApi\obj\Debug\net8.0\refint\Comput
 C:\Users\farka\GitWorkDir\ComputerApi\ComputerApi\obj\Debug\net8.0\ComputerApi.pdb
 C:\Users\farka\GitWorkDir\ComputerApi\ComputerApi\obj\Debug\net8.0\ComputerApi.genruntimeconfig.cache
 C:\Users\farka\GitWorkDir\ComputerApi\ComputerApi\obj\Debug\net8.0\ref\ComputerApi.dll
+C:\Users\farka\GitWorkDir\ComputerApi\ComputerApi\obj\Debug\net8.0\ComputerApi.sourcelink.json
