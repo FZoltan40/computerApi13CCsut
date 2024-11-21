@@ -24,5 +24,25 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.OsystemController",
+    "Method": "Get",
+    "RelativePath": "osystems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Osystem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
