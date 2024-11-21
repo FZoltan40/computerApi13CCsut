@@ -26,6 +26,38 @@
     ]
   },
   {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetAllCompByID",
+    "RelativePath": "computers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetNumberOfComp",
+    "RelativePath": "computers/numOfComps/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ComputerApi.Controllers.OsystemController",
     "Method": "Post",
     "RelativePath": "osystems",

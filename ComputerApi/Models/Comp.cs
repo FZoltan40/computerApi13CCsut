@@ -1,4 +1,6 @@
-﻿namespace ComputerApi.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace ComputerApi.Models;
 
 public partial class Comp
 {
@@ -16,5 +18,6 @@ public partial class Comp
 
     public Guid? OsId { get; set; }
 
+    [JsonIgnore]
     public virtual Osystem? Os { get; set; }
 }
