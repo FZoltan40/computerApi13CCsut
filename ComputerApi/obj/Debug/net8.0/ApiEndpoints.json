@@ -43,6 +43,86 @@
   },
   {
     "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetAllComputerWithOs",
+    "RelativePath": "computers/allComputerWithOs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Comp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetAllMicrosoftOs",
+    "RelativePath": "computers/allMicrosoftOs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Comp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetMaxDiplaySize",
+    "RelativePath": "computers/maxDisplaySize",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Comp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.CompController",
+    "Method": "GetNewComputer",
+    "RelativePath": "computers/newComputer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Comp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.CompController",
     "Method": "GetNumberOfComp",
     "RelativePath": "computers/numOfComps/{id}",
     "HttpMethod": "GET",
@@ -175,5 +255,45 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.OsystemController",
+    "Method": "GetAllOsData",
+    "RelativePath": "osystems/getAllOsData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Osystem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputerApi.Controllers.OsystemController",
+    "Method": "GetComputer",
+    "RelativePath": "osystems/orderComputer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ComputerApi.Models.Osystem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
